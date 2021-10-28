@@ -9,7 +9,7 @@ spring:
     name: movieapp-api
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/moviedb
+    url: jdbc:postgresql://mydbinstance.cophyzdsycji.us-east-1.rds.amazonaws.com:5432/moviedb
     username: postgres
     password: postgres@123
 
